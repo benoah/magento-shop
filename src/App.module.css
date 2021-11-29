@@ -1,0 +1,21 @@
+.app {
+    display: grid;
+    text-align: center;
+    grid-template-areas: 
+                'title'
+                'categories';
+}
+
+.title {
+    grid-area: title;
+}
+
+
+.categories {
+    grid-area: categories;
+    color: yellow;
+}
+
+.button {
+    padding: 5px;
+}
